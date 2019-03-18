@@ -1,0 +1,31 @@
+body {
+    font-family: Helvetica;
+  }
+  
+  .story {
+    background: rgb(170, 170, 38);
+  }
+  
+  .rule .caption {
+    background: rgb(81, 209, 209);
+  }
+  
+  .example {
+    background: #33cc33;
+  }
+  
+  .card, .example {
+    padding: 15px;
+    border: 1px solid #000;
+    margin: 5px;
+    font-size: 18px;
+  }
+  
+  .rules {
+    display: flex;
+  }
+  
+  .rule {
+    flex-grow: 1;
+  }
+  
